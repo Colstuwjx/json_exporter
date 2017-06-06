@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
     REGISTRY.register(JSONCollector(faked))
     start_http_server(9118)
-    print("json_exporter start at 127.0.0.1:9118...")
+    print("json_exporter start at 0.0.0.0:9118...")
 
     while True:
         time.sleep(1)
